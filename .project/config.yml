@@ -1,0 +1,9 @@
+local:
+  script:
+    setup:
+      install: GOPATH=$project go get github.com/githubnemo/CompileDaemon
+  components:
+    default:
+      command: GOPATH=$project ./bin/CompileDaemon -directory=. -command="go test"
+  env:
+    - "GOPATH:$project"
