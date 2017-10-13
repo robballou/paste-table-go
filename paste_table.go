@@ -120,6 +120,7 @@ func ParseTable(input string, options PasteTableOptions) string {
 	return fmt.Sprintf("%s\n", strings.Join(output, "\n"))
 }
 
+// ParseDelimited parses delimited files (CSV, TSV, etc)
 func ParseDelimited(input string, options PasteTableOptions) string {
 	var output []string
 
