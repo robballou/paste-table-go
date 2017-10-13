@@ -44,15 +44,17 @@ You can also parse delimited files:
 
 To get just the first column as a list:
 
-    cat mysql.txt | paste-table-go --delimiter=','
+    cat file.csv | paste-table-go --delimiter=','
 
 To get the second column as a list:
 
-    cat mysql.txt | paste-table-go --delimiter=',' --column=1
+    cat file.csv | paste-table-go --delimiter=',' --column=1
 
 To get the second column, one record per line:
 
-    cat mysql.txt | paste-table-go --delimiter=',' --column=1 --newline
+    cat file.csv | paste-table-go --delimiter=',' --column=1 --newline
+    
+You can also specify other delimiters as needed. Currently testing for `,` and `\t`.
 
 ## Install (Advanced)
 
