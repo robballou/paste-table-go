@@ -2,7 +2,7 @@
 
 (Work-in-progress)
 
-A [Go (golang)](https://golang.org) version of [https://github.com/robballou/paste-table-util](/robballou/paste-table).
+A [Go (golang)](https://golang.org) version of [paste table](https://github.com/robballou/paste-table-util).
 
 ## Example (MySQL)
 
