@@ -1,5 +1,7 @@
 # Paste Table
 
+[![Build Status](https://travis-ci.org/robballou/paste-table-go.svg?branch=master)](https://travis-ci.org/robballou/paste-table-go)
+
 (Work-in-progress)
 
 A [Go (golang)](https://golang.org) version of [paste table](https://github.com/robballou/paste-table-util).
